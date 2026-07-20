@@ -1,0 +1,10 @@
+.swing-footer-component-ag {
+  transition: all 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .swing-footer-component-ag {
+    transition: none;
+    animation: none;
+  }
+}
