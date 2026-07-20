@@ -1,0 +1,19 @@
+.swell-card-example-ag {
+  /* Base styles */
+  transition: all 0.3s ease;
+}
+
+.swell-card-example-ag:hover {
+  transform: scale(1.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .swell-card-example-ag {
+    transition: none;
+    transform: none;
+    animation: none;
+  }
+  .swell-card-example-ag:hover {
+    transform: none;
+  }
+}
