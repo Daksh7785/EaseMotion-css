@@ -1,0 +1,19 @@
+.rock-dialog-example-ag {
+  /* Base styles */
+  transition: all 0.3s ease;
+}
+
+.rock-dialog-example-ag:hover {
+  transform: scale(1.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rock-dialog-example-ag {
+    transition: none;
+    transform: none;
+    animation: none;
+  }
+  .rock-dialog-example-ag:hover {
+    transform: none;
+  }
+}
